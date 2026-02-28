@@ -3,12 +3,10 @@ Change Log
 
 This file documents all notable changes to Peggy.
 
-Unreleased
-----------
+5.1.0
+-----
 
-Released: TBD
-
-### Major Changes
+Released: 2026-02-28
 
 ### New features
 
@@ -17,6 +15,11 @@ Released: TBD
   [#650](https://github.com/peggyjs/peggy/issues/650)
 
 ### Bug fixes
+
+- Updated dependencies.  Switched to OIDC publishing.  Work around mocha security warnings.  Switch to cpy-cli from copyfiles because of recent maintenance issues.
+  [#655](https://github.com/peggyjs/peggy/issues/655)
+- (chore) Added a devcontainer for developer use.
+  [#654](https://github.com/peggyjs/peggy/issues/654)
 
 5.0.6
 -----
