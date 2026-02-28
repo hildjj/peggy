@@ -25,6 +25,12 @@ export default [
   ...mocha,
   ...ts,
   {
+    files: ["**/*.ts"],
+    rules: {
+      "@typescript-eslint/strict-void-return": "off",
+    },
+  },
+  {
     ...modern,
     // All of these can use modern JS and node constructs
     files: ["bin/*.js", "tools/**", "web-test/**", "src/*.mjs"],
