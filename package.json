@@ -55,10 +55,10 @@
   },
   "devDependencies": {
     "@peggyjs/eslint-config": "^6.0.10",
-    "@swc/core": "1.15.17",
+    "@swc/core": "1.15.18",
     "@types/chai": "^4.3.20",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.3.2",
+    "@types/node": "^25.3.3",
     "chai": "4.5.0",
     "chai-like": "^1.1.3",
     "cpy-cli": "^7.0.0",
